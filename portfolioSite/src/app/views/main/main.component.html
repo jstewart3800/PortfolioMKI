@@ -1,0 +1,58 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <ul ngbNav #nav="ngbNav" class="nav-tabs">
+                <li ngbNavItem>
+                    <a ngbNavLink>Recent Work</a>
+                    <ng-template ngbNavContent>
+                        <div class="row my-3">
+                            <div class="col d-flex flex-column align-items-center">
+                                <img src="assets/Placeholder.jpg" alt="Placeholder">
+                                <p>Trivia Game - HTML, CSS, Javascript</p>
+                            </div>
+                            <div class="col d-flex flex-column align-items-center">
+                                <img src="assets/Placeholder.jpg" alt="Placeholder">
+                                <p>Business Redevelopment - HTML, CSS, Javascript</p>
+                            </div>
+                        </div>
+                        <div class="row my-3">
+                            <div class="col d-flex flex-column align-items-center">
+                                <img src="assets/Placeholder.jpg" alt="Placeholder">
+                                <p>Website Store - HTML, CSS, Javascript</p>
+                            </div>
+                            <div class="col d-flex flex-column align-items-center">
+                                <img src="assets/Placeholder.jpg" alt="Placeholder">
+                                <p>Utility Multitool App - C#</p>
+                            </div>
+                        </div><div class="row my-3">
+                            <div class="col d-flex flex-column align-items-center">
+                                <img src="assets/Placeholder.jpg" alt="Placeholder">
+                                <p>Deal or No Deal Game - C#</p>
+                            </div>
+                            <div class="col d-flex flex-column align-items-center">
+                                <img src="assets/Placeholder.jpg" alt="Placeholder">
+                                <p>Business Redevelopment - HTML, CSS, Javascript</p>
+                            </div>
+                        </div><div class="row my-3">
+                            <div class="col d-flex flex-column align-items-center">
+                                <img src="assets/Placeholder.jpg" alt="Placeholder">
+                                <p>Trivia Game - HTML, CSS, Javascript</p>
+                            </div>
+                            <div class="col d-flex flex-column align-items-center">
+                                <img src="assets/Placeholder.jpg" alt="Placeholder">
+                                <p>Business Redevelopment - HTML, CSS, Javascript</p>
+                            </div>
+                        </div>
+                    </ng-template>
+                </li>
+                <li ngbNavItem>
+                    <a ngbNavLink>About Me</a>
+                    <ng-template ngbNavContent>
+                        
+                    </ng-template>
+                </li>
+            </ul>
+            <div [ngbNavOutlet]="nav"></div>
+        </div>
+    </div>
+</div>
